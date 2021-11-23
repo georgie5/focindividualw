@@ -1,0 +1,7 @@
+ body{  filter: blur(8px);
+       -webkit-filter: blur(8px);
+	   background-image: url(/FOC/BMI/dumbell.gif);
+	  
+       background-position: down;
+       background-repeat: no-repeat;
+       background-size: cover;
