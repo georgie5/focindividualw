@@ -4,7 +4,7 @@
       
 		div{
 			width: 300px;
-			position: fixed;
+			position: absolute;
 			top: 53%;
 			left: 50%;
 			background-color: #fff;
