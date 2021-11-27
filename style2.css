@@ -1,0 +1,109 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif; 
+background-image: url('./images/background.png');
+  background-position: center;
+  background-attachment:fixed;
+  background-size: 100% 100%;
+}
+
+
+/* Style the header */
+header { 
+  padding: 40px;
+  text-align: center;
+  font-size: 45px;
+  color: White;
+}
+
+nav {
+
+    float: left;
+    width: 20%;
+    height: 600px; /* only for demonstration, should be removed */
+    background: #C0C0C0;
+    padding: 50px;
+  }
+nav ul {
+    list-style-type: none;
+    padding: 0;
+  } 
+  ul{
+    font-size: large;
+}
+  ul li a{
+    background-color: red; 
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+   background-color: #C0C0C0; 
+  color: black; 
+  border: 2px solid #34495E ;
+} 
+ul li a:hover{
+        color: white ;
+	 background: #5E96EE ;
+	 box-shadow: 0 0 10px #5E96EE ,0 0 40px #5E96EE ,0 0 80px #5E96EE ;
+}
+{
+    box-sizing: border-box;
+  }
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+ 
+  /* height: 300px;  only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
